@@ -62,7 +62,7 @@ translate.addEventListener('click', function() {
     let click = document.getElementById('click')
     click.play()
     let sentence = document.getElementById('sentence')
-    translate.innerText = 'Os bombeiros foram chamados pra apagar o fogo mas já era tarde demais!'
+    translate.innerText = 'Os bombeiros foram chamados pra apagar o incêndio, mas já era tarde demais!'
     setTimeout(() => {
         translate.innerHTML = 'Translate and Listen'
     }, 6000);
